@@ -1,15 +1,15 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/Login.jsx';
-import SignUp from './pages/SignUp.jsx';
-import Home from './pages/Home.jsx';
-import ShopDiscovery from './pages/ShopDiscovery.jsx';
-import ShopDetailPage from './pages/ShopDetailPage.jsx';
-import ProductListingPage from './pages/ProductListingPage.jsx';
-import ProductDetailPage from './pages/ProductDetailPage.jsx';
-import CartPage from './pages/CartPage.jsx';
-import UserProfilePage from './pages/UserProfilePage.jsx';
-import CheckoutPage from './pages/CheckoutPage.jsx';
-import OrderTrackingPage from './pages/OrderTrackingPage.jsx';
+import Login from './Pages/Login.jsx';
+import SignUp from './Pages/SignUp.jsx';
+import Home from './Pages/Home.jsx';
+import ShopDiscovery from './Pages/ShopDiscovery.jsx';
+import ShopDetailPage from './Pages/ShopDetailPage.jsx';
+import ProductListingPage from './Pages/ProductListingPage.jsx';
+import ProductDetailPage from './Pages/ProductDetailPage.jsx';
+import CartPage from './Pages/CartPage.jsx';
+import UserProfilePage from './Pages/UserProfilePage.jsx';
+import CheckoutPage from './Pages/CheckoutPage.jsx';
+import OrderTrackingPage from './Pages/OrderTrackingPage.jsx';
 import Navbar from './components/Navbar.jsx';
 
 function App() {
