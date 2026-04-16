@@ -31,6 +31,7 @@ public class SecurityConfig {
                 .antMatchers("/api/auth/**").permitAll()
                 .antMatchers("/api/shops/**").permitAll()
                 .antMatchers("/api/products/**").permitAll()
+                .antMatchers("/api/cart/**", "/api/orders/**").permitAll()
                 .anyRequest().authenticated();
 
         return http.build();
