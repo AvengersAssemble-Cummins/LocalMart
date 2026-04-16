@@ -22,7 +22,7 @@ public class Shop {
 
     private String phone;
 
-    private Address address;
+    private String address;
 
     private double rating;
 

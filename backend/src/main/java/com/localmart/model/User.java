@@ -26,5 +26,5 @@ public class User {
 
     private String dob;
 
-    private Object address;
+    private String address;
 }
